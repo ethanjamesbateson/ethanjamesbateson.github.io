@@ -1,0 +1,18 @@
+.container {  
+    display: grid;
+    height: 98vh;
+    grid-template-columns: 0.5fr 1.3fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "profile about";
+}
+
+.profile {
+    grid-area: profile;
+}
+
+.about {
+    grid-area: about;
+}
